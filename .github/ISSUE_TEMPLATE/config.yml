@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 General Support
+    url: mailto:support@deniscasian.com
+    about: For general questions, billing, or account issues
+  - name: 🐛 Bug Reports (External)
+    url: https://bugs.deniscasian.com
+    about: Report bugs directly on our bug tracker
+  - name: 📱 Download RealMeteo
+    url: https://go.deniscasian.com/realmeteo
+    about: Get RealMeteo on Google Play

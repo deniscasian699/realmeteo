@@ -15,6 +15,9 @@ Clean. Fast. Zero third-party ads. Zero tracking.
 [![GDPR](https://img.shields.io/badge/Privacy-GDPR%20Compliant-green?style=for-the-badge)](./PRIVACY_POLICY.md)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./LICENSE)
 
+<br>
+<a href="https://www.producthunt.com/products/real-meteo?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-real-meteo" target="_blank" rel="noopener noreferrer"><img alt="Real Meteo - Accurate weather, without the ad clutter | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1225183&amp;theme=neutral&amp;t=1787070783368"></a>
+
 ---
 
 <img src="assets/screenshots/screen1.png" width="180" />

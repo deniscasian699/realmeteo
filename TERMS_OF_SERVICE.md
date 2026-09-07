@@ -2,7 +2,7 @@
 
 # 🌤️ RealMeteo — Terms of Use
 
-**Last updated: August 2, 2026 · Effective immediately**
+**Last updated: September 7, 2026 · Effective immediately**
 
 [![App](https://img.shields.io/badge/RealMeteo-Download-brightgreen?style=for-the-badge&logo=google-play)](https://go.deniscasian.com/realmeteo)
 [![Developer](https://img.shields.io/badge/Developer-Denis%20Casian-orange?style=for-the-badge)](https://deniscasian.com)
@@ -25,10 +25,10 @@ these Terms. If you do not agree, please uninstall the app.
 
 > ### 🛡️ Plain-Language Summary
 >
-> The app is free to use. Paid tiers are optional and unlock extra features
-> or simply support development. Subscriptions renew automatically until you
-> cancel them in Google Play. Weather forecasts are predictions, not
-> guarantees — **never rely on them for safety-critical decisions.**
+> The app is free and supported by advertising. The Supporter tiers remove all
+> ads; Premium unlocks extra features but does not remove ads. Subscriptions
+> renew automatically until you cancel them in Google Play. Weather forecasts
+> are predictions, not guarantees — **never rely on them for safety-critical decisions.**
 
 ---
 
@@ -74,10 +74,10 @@ processed by Google Play and recorded by RevenueCat:
 
 | Tier | Type | What it does |
 |---|:---:|---|
-| ❤️ **Supporter** | One-time | A single contribution towards development. Hides the in-app support prompts. |
-| ❤️ **Monthly Supporter** | Subscription | Recurring contribution. Unlocks the exclusive app icons. |
-| 👑 **Premium** | Subscription | Extended forecast, city comparison, premium widget, no support prompts. |
-| 💎 **Premium Lifetime** | One-time | All Premium features permanently, with no recurring charge. |
+| ❤️ **Supporter** | One-time | **Removes all advertising, permanently.** |
+| ❤️ **Monthly Supporter** | Subscription | **Removes all advertising** while active, plus exclusive app icons. |
+| 👑 **Premium** | Subscription | Extended forecast, city comparison, premium widget, no support prompts. **Ads are still shown.** |
+| 💎 **Premium Lifetime** | One-time | All Premium features permanently, with no recurring charge. **Ads are still shown.** |
 
 Prices are shown inside the app in your local currency, as supplied by Google
 Play at the moment you view them. They may differ between countries and may
@@ -101,6 +101,26 @@ period you have already paid for.
 > Google Play does not allow an app to cancel a subscription on your behalf.
 > If you own Lifetime and also hold a monthly subscription, you must cancel
 > the subscription yourself in Google Play, or you will continue to be charged.
+
+---
+
+## 🔔 Advertising
+
+RealMeteo is free and funded by advertising served through **Google AdMob.**
+You will see a banner at the bottom of the screen, native ads within the
+content, and occasional full-screen ads when moving between screens.
+
+> **Only the Supporter tiers remove advertising.** Premium and Premium Lifetime
+> unlock features — the extended forecast, charts, city comparison and the
+> customisable widget — but ads continue to be shown. If your goal is an
+> ad-free app, purchase a Supporter tier.
+
+We do not control which specific adverts are served. Google selects them. If
+you see an advert that is offensive or misleading, report it through the
+information icon on the ad itself and write to us so we can escalate it.
+
+How advertising affects your data is described in our
+[Privacy Policy](./PRIVACY_POLICY.md).
 
 ---
 
@@ -167,6 +187,8 @@ You agree **not** to:
 - Reverse-engineer, decompile, or modify the app, except where such a
   restriction is prohibited by applicable law.
 - Circumvent or attempt to circumvent the purchase and entitlement checks.
+- Use any means to block, interfere with, or spoof advertising served by
+  Google AdMob.
 - Redistribute, resell, or sublicense the app or any paid feature.
 - Use automated means to extract weather data through the app, which would
   breach the terms of the upstream data providers.
@@ -189,12 +211,12 @@ licence terms. Open-Meteo data is provided under
 
 ## 9. 🔐 Privacy
 
-How we handle your data — and, more importantly, how little of it we collect
-— is described in full in our **[Privacy Policy](./PRIVACY_POLICY.md).**
-It forms part of these Terms.
+How we handle your data is described in full in our
+**[Privacy Policy](./PRIVACY_POLICY.md).** It forms part of these Terms.
 
-**In short:** the app contains no advertising SDK, no analytics SDK, and no
-crash-reporting SDK, and it does not read your Android Advertising ID.
+**In short:** we do not collect analytics or usage data ourselves. The app
+uses Google AdMob for advertising, and Google Play Billing and RevenueCat
+for purchases. All other data stays on your device.
 
 ---
 
@@ -223,8 +245,9 @@ You may stop using the app at any time by uninstalling it. Uninstalling does
 Google Play.
 
 We may suspend or terminate access if you materially breach these Terms, in
-particular by circumventing purchase verification. Where a breach is capable
-of being remedied, we will contact you first where it is reasonable to do so.
+particular by circumventing purchase verification or interfering with
+advertising. Where a breach is capable of being remedied, we will contact
+you first where it is reasonable to do so.
 
 ---
 
@@ -238,9 +261,15 @@ Material changes affecting your rights will be announced **in the app** before
 they take effect. Continuing to use the app after that point means you accept
 the revised Terms.
 
+### Change Log
+
+| Date | Changes |
+|---|---|
+| **September 7, 2026** | Re-introduced Google AdMob advertising. Added Advertising section. Updated Section 3 table to clarify that only Supporter tiers remove ads. Added ad-blocking to Acceptable Use. Updated Sections 9 and 11. |
+
 ---
 
-## 13. 🇩🇪 Governing Law
+## 13. 🇷🇴 Governing Law
 
 These Terms are governed by the laws of **Romania** and, where applicable,
 by **European Union consumer law.**

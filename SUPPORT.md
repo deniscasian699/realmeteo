@@ -74,6 +74,16 @@ You must cancel the monthly subscription manually:
 Your Lifetime access is already active. Cancelling the subscription
 simply stops future monthly charges.
 
+### 🔔 How to Remove Ads
+
+Purchase either the **Supporter** (one-time) or **Monthly Supporter**
+(subscription) tier. After purchase, all advertising is removed permanently
+for Supporter, or for the duration of your subscription for Monthly Supporter.
+
+**Note:** Premium and Premium Lifetime do **not** remove advertising.
+They unlock extended forecast features such as the 14-day forecast, charts,
+city comparison and the customisable widget.
+
 ---
 
 ## 💳 Billing & Refunds

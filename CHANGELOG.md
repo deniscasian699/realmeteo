@@ -12,16 +12,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [Latest] — 2026
+## [Latest] — September 2026
 
 ### Added
 - Real-time weather with current temperature and conditions
 - 7-day detailed weather forecast
 - 24-hour hourly forecast
-- Feels-like temperature, humidity, wind speed, UV index
+- Feels-like temperature, humidity, wind speed and direction, UV index
 - Visibility, sunrise, sunset, and moon phases
 - Rain probability and precipitation data
-- Home screen widgets: compact, large, hourly, and premium
+- Home screen widgets: compact, large, hourly, date & time, and premium
 - Favorite cities with quick navigation
 - Smart offline weather cache
 - Morning weather notifications
@@ -39,13 +39,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Light and dark theme support
 - Widget themes, transparency, and display options
 - GDPR, CCPA, and U.S. state privacy compliance
-- Zero third-party advertising SDKs
 - RevenueCat integration for purchase management
 - BigDataCloud reverse geocoding fallback
+- Google AdMob advertising (removable via Supporter tier)
+- Wind direction display alongside wind speed
+- Date & time home screen widget
 
 ### Changed
-- Removed all advertising SDKs (previously included)
-- Removed advertising identifier usage
+- Supporter and Monthly Supporter tiers now remove all advertising permanently
+- Premium and Premium Lifetime unlock features but do not remove ads
 
 ---
 

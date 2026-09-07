@@ -2,10 +2,10 @@
 
 # 🌤️ RealMeteo — Privacy Policy
 
-**Last updated: July 29, 2026 · Effective immediately**
+**Last updated: September 7, 2026 · Effective immediately**
 
 [![App](https://img.shields.io/badge/RealMeteo-Download-brightgreen?style=for-the-badge&logo=google-play)](https://go.deniscasian.com/realmeteo)
-[![Privacy](https://img.shields.io/badge/No%20Ads-Zero%20Tracking-blue?style=for-the-badge)](https://go.deniscasian.com/realmeteo)
+[![Ads](https://img.shields.io/badge/Ads-Google%20AdMob-yellow?style=for-the-badge)](https://go.deniscasian.com/realmeteo)
 [![GDPR](https://img.shields.io/badge/GDPR-Compliant-green?style=for-the-badge)](https://go.deniscasian.com/realmeteo)
 
 </div>
@@ -23,14 +23,17 @@ data to anyone.**
 
 ---
 
-## 🛡️ No Third-Party Advertising
+## 🔔 Advertising
 
-RealMeteo contains **no third-party advertising.**
+RealMeteo is free and funded by advertising served through **Google AdMob.**
+Banner ads, occasional full-screen ads and native ads are shown to users who
+have not purchased a Supporter tier.
 
-We do not display ads, we do not use advertising SDKs, and we do not access
-your Android Advertising ID. The app is funded entirely by optional Supporter
-contributions and Premium subscriptions. There is **no advertising profiling
-of any kind.**
+**Removing ads:** The **Supporter** and **Monthly Supporter** purchases remove
+all advertising permanently. When you own either, the advertising SDK is not
+initialised and no ad requests are made from your device.
+
+**Note:** Premium and Premium Lifetime unlock features — they do **not** remove ads.
 
 ---
 
@@ -50,22 +53,24 @@ API to determine your city name.
 
 When you make a purchase, Google Play processes the transaction and
 **RevenueCat** records the resulting entitlement. We receive an anonymous
-purchase identifier and the status of your subscription.
+purchase identifier and the status of your subscription or one-time purchase.
 
 > We **never** receive your name, email address, or payment card details.
 
 ### Usage Data
 
-We do **not** collect analytics or usage data. The app contains:
-
-- ❌ No analytics SDK
-- ❌ No crash-reporting SDK
-- ❌ No advertising SDK
+We do **not** collect analytics or usage data ourselves. The app contains no
+analytics SDK and no crash-reporting SDK. Google AdMob collects the data
+described in its own privacy policy in order to serve and measure advertising.
 
 ### Advertising Identifiers
 
-**None.** RealMeteo does not request, read, or transmit the Android
-Advertising ID.
+RealMeteo uses **Google AdMob** to display advertising. AdMob may access your
+Android Advertising ID (AAID) to serve and measure ads, and to limit how
+often you see the same advert. You can reset this identifier, or opt out of
+personalised advertising entirely, in **Android Settings → Privacy → Ads.**
+Users who purchase a Supporter tier see no advertising at all, and no
+advertising SDK requests are made for them.
 
 ### User Preferences
 
@@ -86,9 +91,10 @@ We use the information collected for the following purposes:
 - To send severe weather alerts to Premium users *(only if you enable this)*
 - To remember your preferences and favorite cities locally on your device
 - To update home screen widgets with current weather data
+- To serve advertising through Google AdMob *(for users who have not purchased a Supporter tier)*
 
-> 📌 We do not use your data for profiling, we do not sell it, and we do not
-> share it with any party other than those described in this policy.
+> 📌 We do not use your data for our own profiling, we do not sell it, and we
+> do not share it with any party other than those described in this policy.
 
 ---
 
@@ -100,11 +106,12 @@ personal data based on the following legal grounds:
 | Legal Basis | Purpose |
 |---|---|
 | **Consent** *(Art. 6(1)(a))* | Accessing your device location to provide local forecasts. You can withdraw this consent at any time via Android Settings. |
+| **Consent** *(Art. 6(1)(a))* | Personalised advertising via AdMob, where required by applicable law. Google manages its own consent requirements for EEA users. |
 | **Contract Performance** *(Art. 6(1)(b))* | Providing the weather forecasting service you requested, and delivering Premium or Supporter features you purchased. |
 | **Legitimate Interest** *(Art. 6(1)(f))* | Caching weather data locally so the app remains usable offline. |
 
-> 📌 Because RealMeteo displays no advertising, we do not rely on consent for
-> advertising purposes and there is no advertising profile associated with you.
+> 📌 Users who purchase a Supporter tier are not shown advertising, and no
+> advertising-related processing occurs for them.
 
 ---
 
@@ -120,29 +127,31 @@ Policy which we encourage you to review:
 | **BigDataCloud** | Your coordinates | Reverse geocoding — used only as a fallback when the device's own geocoder fails. |
 | **Google Play Billing** | Purchase transaction | Processes payments. We never see your payment details. |
 | **RevenueCat** | Anonymous app user ID, purchase receipts | Manages subscription status and restores purchases across devices. |
+| **Google AdMob** | Android Advertising ID, approximate location from IP, device info | Serves advertising to users who have not purchased a Supporter tier. Not initialised for Supporter users. |
 
 **Policy links:**
 [Open-Meteo](https://open-meteo.com/en/terms) ·
-[BigDataCloud](https://www.bigdatacloud.com/privacy-policy) ·
+[BigDataCloud](https://www.bigdatacloud.com/privacy-and-cookie-policy) ·
 [RevenueCat](https://www.revenuecat.com/privacy) ·
-[Google](https://policies.google.com/privacy)
+[Google](https://policies.google.com/privacy) ·
+[Google AdMob](https://policies.google.com/technologies/ads)
 
-> 📌 RealMeteo does **not** include Google AdMob, Firebase Analytics,
-> Google Analytics, or any other advertising or analytics SDK.
+> 📌 RealMeteo does not include Firebase Analytics, Google Analytics, or any
+> crash-reporting SDK.
 
 ---
 
 ## 4. 💳 Purchases & Subscriptions
 
 RealMeteo is free to use. All weather features work without payment.
-We offer optional purchases to support development:
+We offer optional purchases:
 
 | Product | Type | Description |
 |---|:---:|---|
-| ❤️ **Supporter** | One-time | A badge and the removal of in-app support messages |
-| ❤️ **Monthly Supporter** | Subscription | A monthly badge and exclusive app icons |
-| 👑 **Premium** | Subscription | 14-day forecast, charts, weather alerts, city comparison, customizable widget |
-| 💎 **Lifetime Premium** | One-time | All Premium features permanently |
+| ❤️ **Supporter** | One-time | **Removes all advertising permanently.** |
+| ❤️ **Monthly Supporter** | Subscription | **Removes all advertising** while active, plus exclusive app icons. |
+| 👑 **Premium** | Subscription | 14-day forecast, charts, weather alerts, city comparison, customizable widget. **Ads are still shown.** |
+| 💎 **Lifetime Premium** | One-time | All Premium features permanently. **Ads are still shown.** |
 
 ### How Payments Are Processed
 
@@ -175,7 +184,7 @@ Google Play according to their refund policy.
 | Permission | Purpose | Required? |
 |---|---|:---:|
 | `ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION` | Detect your location for weather forecasts | ❌ Optional |
-| `INTERNET` | Fetch weather data | ✅ Yes |
+| `INTERNET` | Fetch weather data and serve advertising | ✅ Yes |
 | `POST_NOTIFICATIONS` | Send morning weather notifications and alerts *(only if enabled)* | ❌ Optional |
 | `SCHEDULE_EXACT_ALARM` | Deliver the morning notification at the exact time you chose | ❌ Optional |
 | `RECEIVE_BOOT_COMPLETED` | Reschedule notifications after device restart | ❌ Optional |
@@ -208,6 +217,7 @@ All network requests use **HTTPS encryption.**
 | Cached weather data | Automatically overwritten with each update (every 15–60 minutes) |
 | User preferences | Stored until you uninstall the app or clear app data |
 | Purchase records | Retained by Google Play and RevenueCat per their own policies |
+| Advertising data (AdMob) | Retained by Google according to their own retention policy |
 
 ---
 
@@ -220,8 +230,9 @@ from children.
 If you believe a child under the applicable age has provided us with personal
 information, please contact us and we will take steps to delete such information.
 
-> Because the app contains no advertising and no analytics, there is no
-> behavioural tracking of any user, including children.
+The app contains advertising served by Google AdMob. We do not knowingly serve
+personalised advertising to children. If you are a parent or guardian and
+believe your child is using the app, please contact us.
 
 ---
 
@@ -234,12 +245,14 @@ Depending on your location, you may have the following rights regarding your dat
 | **Access** | Request information about what data is held about you |
 | **Deletion** | Request deletion of your data *(most data exists only on your device and is removed by uninstalling the app)* |
 | **Revoke permissions** | At any time via **Android Settings → Apps → RealMeteo → Permissions** |
+| **Opt out of personalised advertising** | Via **Android Settings → Privacy → Ads**, or by purchasing a Supporter tier |
 | **Portability** | Request a copy of your data in a machine-readable format |
 | **Rectification** | Request correction of inaccurate data |
 
 > Since we do not store personal data on our servers, most of these rights can
 > be exercised directly on your device. For data held by RevenueCat in
-> connection with your purchases, contact us and we will forward your request.
+> connection with your purchases, or by Google in connection with advertising,
+> contact us and we will forward your request.
 
 ---
 
@@ -273,9 +286,9 @@ If you are a California resident, you have additional rights under the CCPA:
 - **Right to Non-Discrimination** — we will not discriminate against you for
   exercising your rights
 
-> 📌 We do **not** sell or share your personal information as defined under
-> the CCPA. RealMeteo contains no advertising and no cross-context
-> behavioural tracking.
+> 📌 We do **not** sell your personal information as defined under the CCPA.
+> Google AdMob may use your Advertising ID for cross-context behavioural
+> advertising; you can opt out via **Android Settings → Privacy → Ads.**
 
 To exercise these rights, contact us at
 **[support@deniscasian.com](mailto:support@deniscasian.com)**
@@ -290,8 +303,8 @@ including:
 
 - **Right to Access** — request information about what personal data we collect
 - **Right to Delete** — request deletion of your personal data
-- **Right to Opt-Out** — opt out of the sale or sharing of personal data
-  *(note: we do not sell your data)*
+- **Right to Opt-Out** — opt out of the sale or sharing of personal data and
+  targeted advertising
 - **Right to Correct** — request correction of inaccurate personal data
 
 > 📌 Since we do not store personal data on our servers, most of these rights
@@ -305,9 +318,10 @@ To exercise these rights, contact us at
 
 ## 11. 🍪 Cookies & Tracking Technologies
 
-RealMeteo does **not** use cookies, tracking pixels, fingerprinting, or any
-similar technology. The app contains no advertising SDK and no analytics SDK,
-so there is nothing to opt out of.
+RealMeteo does **not** use cookies, tracking pixels, or fingerprinting itself.
+Google AdMob may use the Android Advertising ID and similar technologies to
+serve and measure advertising; this is governed by Google's own policies.
+You can opt out via **Android Settings → Privacy → Ads.**
 
 > This documentation page may load fonts from Google Fonts, which may log
 > your IP address. No cookies are set by this page.
@@ -327,7 +341,8 @@ of the revised policy.
 
 | Date | Changes |
 |---|---|
-| **July 29, 2026** | Removed all references to Google AdMob and advertising identifiers; RealMeteo no longer contains any advertising SDK. Added RevenueCat and BigDataCloud as data processors. Added a dedicated Purchases section. Updated the permissions list. |
+| **September 7, 2026** | Re-introduced Google AdMob advertising. Added Advertising section. Updated sections 1, 2.1, 3, 4, 5, 6, 7, 10, 10.1 and 11 to reflect ad-supported operation. Clarified that only Supporter tiers remove ads; Premium tiers do not. |
+| **July 29, 2026** | Added RevenueCat and BigDataCloud as data processors. Added Purchases section. Updated permissions list. |
 
 ---
 

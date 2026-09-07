@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="RealMeteo Logo" width="120" height="120" /> 
+<img src="assets/logo.png" alt="RealMeteo Logo" width="120" height="120" />
 
 # 🌤️ RealMeteo
 
 ### Weather, Forecast, Widgets & Alerts
 
 **Modern weather app for Romania and the entire world.**  
-Clean. Fast. Zero third-party ads. Zero tracking.
+Clean. Fast. Free with optional ad-free Supporter tiers.
 
 [![Download on Google Play](https://img.shields.io/badge/Google%20Play-Download-brightgreen?style=for-the-badge&logo=google-play&logoColor=white)](https://go.deniscasian.com/realmeteo)
 [![Platform](https://img.shields.io/badge/Platform-Android-blue?style=for-the-badge&logo=android&logoColor=white)](https://go.deniscasian.com/realmeteo)
-[![No Ads](https://img.shields.io/badge/Ads-Zero%20Third--Party-success?style=for-the-badge)](https://go.deniscasian.com/realmeteo)
+[![Ads](https://img.shields.io/badge/Ads-Removable%20with%20Supporter-yellow?style=for-the-badge)](https://go.deniscasian.com/realmeteo)
 [![GDPR](https://img.shields.io/badge/Privacy-GDPR%20Compliant-green?style=for-the-badge)](./PRIVACY_POLICY.md)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](./LICENSE)
 
 <br>
-<a href="https://www.producthunt.com/products/real-meteo?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-real-meteo" target="_blank" rel="noopener noreferrer"><img alt="Real Meteo - Accurate weather, without the ad clutter | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1225183&amp;theme=neutral&amp;t=1787070783368"></a>
+<a href="https://www.producthunt.com/products/real-meteo?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-real-meteo" target="_blank" rel="noopener noreferrer"><img alt="Real Meteo - Accurate weather, without the ad clutter | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1225183&theme=neutral&t=1787070783368"></a>
 
 ---
 <img src="assets/banner.png" alt="Banner" width="100%" />
@@ -25,8 +25,7 @@ Clean. Fast. Zero third-party ads. Zero tracking.
 <img src="assets/screenshots/screen2.png" width="180" />
 <img src="assets/screenshots/screen3.png" width="180" />
 <img src="assets/screenshots/screen4.png" width="180" />
-
-
+<img src="assets/screenshots/screen5.png" width="180" />
 </div>
 
 ---
@@ -41,9 +40,10 @@ elegant interface.
 Weather data is powered by **[Open-Meteo](https://open-meteo.com/)** —
 a free, open-source, globally accurate weather API.
 
-> ### 🛡️ Zero Third-Party Ads
-> No banners · No interstitials · No native ads · No advertising identifiers  
-> Funded entirely by optional Supporter contributions and Premium subscriptions.
+> ### 🔔 Free App — Supported by Advertising
+> RealMeteo is free and funded by **Google AdMob** advertising.  
+> **Supporter** and **Monthly Supporter** purchases remove all ads permanently.  
+> Premium and Premium Lifetime unlock features — they do **not** remove ads.
 
 ---
 
@@ -54,7 +54,7 @@ a free, open-source, globally accurate weather API.
 - **7-day** detailed forecast
 - **Hourly** forecast for the next 24 hours
 - Feels-like temperature and humidity
-- Wind speed, atmospheric pressure, and UV index
+- Wind speed, **wind direction**, atmospheric pressure, and UV index
 - Visibility, sunrise, sunset, and moon phases
 - Rain probability and precipitation amounts
 - Celsius and Fahrenheit support
@@ -71,6 +71,7 @@ hiking, skiing, beach days, or any outdoor activity.
 | **Compact** | Current temperature at a glance |
 | **Large** | 3-day forecast overview |
 | **Hourly** | Next 3 hours forecast |
+| **Date & Time** | Current date and time with weather |
 | **Premium** | Fully customizable with themes & transparency |
 
 All widgets support direct refresh, light and dark themes, and display options.
@@ -112,25 +113,25 @@ All widgets support direct refresh, light and dark themes, and display options.
 
 ## 💳 Pricing
 
-RealMeteo remains **free** thanks to community support.  
+RealMeteo is **free** and supported by Google AdMob advertising.  
 All paid tiers are optional.
 
 ### One-Time Purchases
 
 | Product | Price | Description |
 |---|:---:|---|
-| 💎 **RealMeteo Premium Lifetime** | €24.99 | All Premium features permanently. Lifetime Premium badge + exclusive app icons. |
-| ❤️ **RealMeteo Supporter** | €2.99 | One-time support contribution. Supporter badge + removes support cards & messages. |
+| 💎 **RealMeteo Premium Lifetime** | €24.99 | All Premium features permanently. Lifetime Premium badge + exclusive app icons. **Ads are still shown.** |
+| ❤️ **RealMeteo Supporter** | €2.99 | **Removes all advertising permanently.** One-time support contribution. Supporter badge. |
 
 ### Subscriptions
 
 | Product | ID | Price | Trial | Benefits |
 |---|---|:---:|:---:|---|
-| 👑 **RealMeteo Premium** | `premium_monthly` | €2.99/mo | 7 days free | 14-day forecast · alerts · charts · smart suggestions · premium widget · no support messages |
-| ❤️ **Monthly Supporter** | `supporter_monthly` | €1.99/mo | — | Monthly Supporter badge · exclusive app icons · removes support messages |
+| 👑 **RealMeteo Premium** | `premium_monthly` | €2.99/mo | 7 days free | 14-day forecast · alerts · charts · smart suggestions · premium widget · no support messages. **Ads are still shown.** |
+| ❤️ **Monthly Supporter** | `supporter_monthly` | €1.99/mo | — | **Removes all advertising** while active · Monthly Supporter badge · exclusive app icons |
 
-> ❤️ Supporter plans are entirely optional and help keep RealMeteo free,
-> ad-free, and actively developed. Thank you to everyone who contributes.
+> ❤️ Supporter plans remove all advertising and help keep RealMeteo free and
+> actively developed. Thank you to everyone who contributes.
 
 ---
 
@@ -140,10 +141,10 @@ RealMeteo is built with **privacy as a core principle:**
 
 | | |
 |---|---|
-| ❌ | No third-party advertising networks |
-| ❌ | No banner, interstitial, or native ads |
-| ❌ | No advertising identifiers (GAID) |
+| 🔔 | Google AdMob advertising shown to free users |
+| ✅ | Supporter tier removes all advertising permanently |
 | ❌ | No analytics or crash-reporting SDKs |
+| ❌ | No advertising ID accessed for Supporter users |
 | ❌ | No user profiling of any kind |
 | ✅ | Weather data from Open-Meteo (open-source, Germany) |
 | ✅ | Purchases managed by Google Play + RevenueCat (anonymous ID only) |

@@ -40,13 +40,15 @@ You may NOT, without prior written permission from the Author:
      branding in any context without prior written permission.
   8. Use automated means to extract weather data through the app, which
      would breach the terms of the upstream data providers.
+  9. Use any means to block, interfere with, or circumvent advertising
+     served through the app.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 THIRD-PARTY COMPONENTS
 
-RealMeteo uses the following third-party services for weather and
-purchase functionality:
+RealMeteo uses the following third-party services for weather, advertising
+and purchase functionality:
 
   • Open-Meteo (https://open-meteo.com/)
     Weather data. Licensed under CC BY 4.0.
@@ -60,6 +62,10 @@ purchase functionality:
 
   • Google Play Billing
     Payment processing. Subject to Google's terms of service.
+
+  • Google AdMob (https://admob.google.com/)
+    Advertising SDK. Subject to Google's terms of service.
+    Shown to users who have not purchased a Supporter tier.
 
 All other components of the Software remain subject to this proprietary
 license.
